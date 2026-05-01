@@ -1,0 +1,21 @@
+# Core ML
+numpy
+pandas
+scikit-learn
+lightgbm
+imbalanced-learn
+joblib
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+requests
+
+# UI
+streamlit
+plotly
+
+# Data Processing
+matplotlib
+seaborn
