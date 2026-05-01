@@ -69,31 +69,41 @@ streamlit run ui/streamlit_app.py
 
 UI will be available locally on port 8501
 
-📁 Project Structure
+## 📁 Project Structure
+
+
 fraud-detection-system/
-├── api/
-│   ├── app.py
-│   └── predict.py
-├── ui/
-│   └── streamlit_app.py
-├── src/
-│   ├── data_loader.py
-│   ├── preprocess.py
-│   ├── model_train.py
-│   ├── model_eval.py
-│   ├── inference.py
-│   └── utils.py
-├── data/
-│   ├── raw/
-│   └── processed/
-├── models/
-├── notebook/
-├── tests/
+│
+├── 📂 api/ # FastAPI backend
+│ ├── app.py # API entry point
+│ └── predict.py # Prediction logic
+│
+├── 📂 ui/ # Streamlit dashboard
+│ └── streamlit_app.py # UI application
+│
+├── 📂 src/ # ML pipeline
+│ ├── data_loader.py
+│ ├── preprocess.py
+│ ├── model_train.py
+│ ├── model_eval.py
+│ ├── inference.py
+│ └── utils.py
+│
+├── 📂 data/ # Dataset (ignored)
+│ ├── raw/
+│ └── processed/
+│
+├── 📂 models/ # Trained models (ignored)
+├── 📂 notebook/ # Notebooks
+├── 📂 tests/ # Test scripts
+│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 
-🏁 Conclusion
+---
 
-Fraud Shield presents a practical and scalable approach to fraud detection by focusing on high recall and real-world usability.
-The system effectively identifies fraudulent transactions while remaining reliable and ready for deployment in real-world financial environments.
+## 🏁 Conclusion
+
+Fraud Shield delivers a **robust and scalable fraud detection system** designed for real-world applications.  
+By prioritizing recall and combining machine learning with an interactive dashboard, it ensures **accurate, reliable, and actionable insights** for detecting fraudulent transactions.
